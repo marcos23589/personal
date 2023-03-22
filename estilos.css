@@ -1,0 +1,535 @@
+header,
+section,
+footer {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #EFFFFB;
+    border: #EFFFFB;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+h1 {
+    margin: 20px;
+    color: rgb(70, 73, 76);
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+#cabecera {
+    width: 960px;
+    height: 160px;
+    position: fixed;
+    z-index: 20;
+}
+
+#marca {
+    width: 420px;
+    height: 120px;
+    float: left;
+    margin: 40px;
+}
+
+#botonera {
+    width: 160px;
+    height: 160px;
+    float: right;
+    margin: 40px;
+    border-radius: 10px;
+
+}
+
+#botonera ul {
+    font-size: 25px;
+    margin: 10px;
+    padding: 0;
+    /* quita el punto del item */
+    list-style-type: none;
+    text-align: right;
+    margin-top: 20px;
+}
+
+#botonera ul a {
+    /* quita el subrayado */
+    text-decoration: none;
+    color: rgb(76, 92, 104);
+    margin: 5px;
+}
+
+#botonera ul a:hover {
+    color: #393b3d;
+}
+
+/* SECCION 1 */
+#home {
+    height: 950px;
+    background-image: url("images/gato_pc.jpg");
+    background-repeat: no-repeat;
+    background-size: 960px;
+    background-position: 0px 35px;
+}
+
+#profesiones {
+    width: 600px;
+    height: 300px;
+    float: left;
+    top: 30%;
+    margin: 40px;
+    position: relative;
+}
+
+#profesiones p {
+    font-size: 45px;
+    margin: 20px;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+    font-weight: lighter;
+    margin-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #46494c;
+}
+
+.tamano {
+    width: 46px;
+}
+
+/* SECCION 2 */
+
+.titulo {
+    border-color: #f3f1f2;
+    border-radius: 15px;
+    width: 540px;
+    height: 100px;
+    float: left;
+    top: 20%;
+    margin: 40px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #46494c;
+    background-color: #f5f5f5;
+}
+
+.p_texto {
+    font-size: x-large;
+    text-align: left;
+    color: #393b3d;
+    margin: 15px;
+}
+
+#experiencia {
+    height: 1000px;
+}
+
+#trabajos {
+    height: 400px;
+}
+
+#trabajos p {
+    color: #46494c;
+    font-size: larger;
+}
+
+/* SECCION 3 */
+#exposiciones {
+    height: 1000px;
+}
+
+#contenedor_libre {
+    height: 400px;
+}
+
+#fila_expo {
+    align-content: center;
+}
+
+#contenedor_expo {
+    height: 400px;
+}
+
+#col2 {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fila1 {
+    height: 300px;
+    display: flex;
+    align-items: flex-start;
+}
+
+/* SECCION 4 */
+#consultas {
+    height: 950px;
+}
+
+#contenedor_libre2 {
+    height: 300px;
+}
+
+#card_formulario {
+    width: 600px;
+    background-color: azure;
+}
+
+/* FOOTER */
+footer {
+    height: 1000px;
+    background-color: #fdfdff;
+}
+
+#contacto {
+    width: 420px;
+    height: 247px;
+    position: relative;
+    top: 55%;
+    margin-left: 40px;
+    float: left;
+}
+
+#redes {
+    width: 400px;
+    height: 100px;
+    position: relative;
+    top: 55%;
+    margin-top: 50px;
+    margin-right: 40px;
+    float: right;
+}
+
+
+.red {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    float: left;
+    margin: 5px;
+
+}
+
+.icono {
+    height: 60px;
+    width: 60px;
+}
+
+#pie {
+    height: 100px;
+    position: relative;
+    top: 65%;
+    margin: 40px;
+    clear: both;
+    background-color: #f3f1f2;
+}
+
+#pie p {
+    text-align: right;
+    padding: 40px;
+    font-size: large;
+}
+
+/**********  600 A 1023 PIXELES **********/
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+    header,
+    section,
+    footer {
+        width: 580px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    #cabecera {
+        width: 580px;
+    }
+
+    #marca {
+        width: 350px;
+        margin: 10px;
+    }
+
+    #botonera {
+        width: 150px;
+        margin: 20px;
+    }
+
+    #botonera ul {
+        font-size: 25px;
+        margin: 10px;
+        margin-top: 20px;
+    }
+
+    /* SECCION 1 */
+
+    #home {
+        height: 940px;
+        background-size: 940px;
+    }
+
+    #profesiones {
+        width: 300px;
+        height: 300px;
+        float: left;
+        top: 45%;
+        margin: 20px;
+        position: relative;
+    }
+
+    /* SECCION 2 */
+
+    .titulo {
+        width: 400px;
+        height: 100px;
+        margin: 20px;
+
+    }
+
+    /* SECCION 3 */
+    #experiencia {
+        height: 1340px;
+    }
+
+    #cont_experiencia {
+        top: 550px;
+        height: 450px;
+    }
+
+    #trabajos {
+        width: 540px;
+        height: 460px;
+        top: 35%;
+        margin-left: 20px;
+        margin-right: 20px;
+        float: none;
+    }
+
+    #presentaciones {
+        width: 540px;
+        height: 400px;
+        top: 38%;
+        margin-left: 20px;
+        margin-right: 20px;
+        float: none;
+    }
+
+    #carrusel {
+        width: 500px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #tit_carrusel {
+        width: 540px;
+    }
+
+    /* FOOTER */
+    footer {
+        height: 960px;
+    }
+
+    #contacto {
+        width: 540px;
+        height: 200px;
+        position: relative;
+        top: 45%;
+        margin-left: 20px;
+        margin-right: 20px;
+        float: none;
+    }
+
+
+    #contacto img {
+        margin-left: 60px;
+    }
+
+    #redes {
+        width: 400px;
+        height: 100px;
+        position: relative;
+        top: 50%;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    #pie {
+        width: 540px;
+        height: 90px;
+        top: 60%;
+        margin: 20px;
+    }
+
+    #pie p {
+        text-align: right;
+        font-size: small;
+    }
+}
+
+/***************** MAXIMO 599 PIXELES *******************/
+@media all and (max-width: 599px) {
+
+    header,
+    section,
+    footer {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #cabecera {
+        width: 100%;
+        height: 100px;
+        margin: 0%;
+    }
+
+    #marca {
+        width: 100%;
+        height: 80px;
+        float: none;
+        margin: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #botonera {
+        width: 90%;
+        height: 50px;
+        float: none;
+        margin: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #botonera ul {
+        font-size: 20px;
+        margin: 5px;
+        text-align: center;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #botonera ul a {
+        margin: 5px;
+    }
+
+    /* SECCION 1 */
+
+    #home {
+        height: 1100px;
+    }
+
+
+    #profesiones {
+        width: 100%;
+        height: 100px;
+        top: 10%;
+        margin: 0px;
+        position: relative;
+    }
+
+    #profesiones p {
+        font-size: 50px;
+        margin: 0px;
+        text-align: center;
+    }
+
+    /* SECCION 2 */
+   
+    .titulo {
+        float: none;
+        top: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* SECCION 3 */
+    #experiencia {
+        height: 1100px;
+    }
+
+    #trabajos {
+        width: 100%;
+        height: 460px;
+        position: relative;
+        top: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #presentaciones {
+        top: 20%;
+        margin-top: 10px;
+        width: 100%;
+        height: 200px;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #carrusel {
+        width: 90%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #tit_carrusel {
+        width: 100%;
+        height: 40px;
+    }
+
+
+
+    /* FOOTER */
+    footer {
+        height: 1100px;
+        background-color: #fdfdff;
+    }
+
+    #contacto {
+        width: 90%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        top: 25%;
+    }
+
+    #redes {
+        width: 400px;
+        top: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+
+    #pie {
+        top: 40%;
+        margin: 10px;
+    }
+
+    #pie p {
+        text-align: center;
+        padding-top: 20px;
+        font-size: medium;
+    }
+}
